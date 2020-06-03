@@ -1,0 +1,153 @@
+
+h1 {
+text-align: center;
+padding top: 10px;
+font-size: 20px;
+color: grey;
+font-family: quicksand sans-serif;
+line-height: 15px;
+font-family: quicksand
+
+}
+
+h2 {
+  font-family: quicksand sans-serif;
+  text-align: center;
+  color: rgb(170, 170, 170);
+  font-size: 18px;
+  font-family: quicksand
+  }
+
+h3{
+  font-family: quicksand sans-serif;
+  text-align: center;
+  color:#F54291;
+
+}
+body {
+  background-color: #f7f7f7;
+  text-align: justify;
+  }
+
+p {
+  color: color: rgb(80, 80, 80);
+  text-align: justify;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: quicksand
+  }
+
+li {
+  text-align: center;
+  list-style-type: none;
+  display: inline-block;
+}
+
+ul {
+  text-align: center;
+  padding: 0;
+
+}
+
+a {
+  color: rgb(50, 50, 50);
+  padding: 0;
+  font-size: 20px;
+  letter-spacing: 15px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F54291;
+}
+
+
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding: 10px;
+  border-color: #F54291;
+  border-radius: 4px;
+  color: #F54291;
+  margin: auto
+}
+
+button:hover {
+  color: #4CD3C2;
+  border-color: #4CD3C2;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  border-radius: 50%;
+}
+.image-cropper {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+div {
+  background-color: white;
+  border: 1px solid #f7f7f7;
+  padding: 30px;
+  margin: auto;
+  border-radius: 20px;
+  width: 300px;
+
+}
+.container {
+  width: 400px;
+  margin: 0 auto;
+  box-shadow: 2px, 2px, 3px red;
+
+}
+
+.name-card {
+  margin: 20px auto;
+  background-color: white;
+  width: 400px;
+  border: 1px solid #f7f7f7;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.1);
+
+}
+
+.img{
+  background-color: #f7f7f7;
+}
+
+.card {
+  margin: 20px auto;
+  background-color: white;
+  width: 400px;
+  padding: 10px, 20px;
+  border: 1px solid #f7f7f7;
+  box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.1);
+
+}
+
+/*.list-inline > li {
+  display: inline-block;
+  text-align: center;
+  list-style-type: none;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}*/
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
